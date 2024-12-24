@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import classes from './AvailableMeal.module.css'
 import Card from '../Ui/Card';
 import MealItem from './MealItem/MealItem';
-import axios from 'axios'
+
 const DUMMY_MEALS = [
     {
       id: 'm1',
